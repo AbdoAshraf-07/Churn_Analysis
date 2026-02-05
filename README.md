@@ -112,6 +112,12 @@ The churn prediction model enables organizations to:
 
 ---
 
-## Author
+## DEVELOPMENT TEAM
 Abdelrahman Farag Mohamed  
 AI and Data Science Enthusiast
+Hanaa alaa 
+AI Engineer
+Hanaa Hemdan
+AI Engineer
+Ahmed Hany 
+Full Stack

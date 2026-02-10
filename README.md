@@ -1,92 +1,54 @@
-Telco Customer Churn Analysis
-Overview
+🔮 Telco Customer Churn Prediction & Analytics
+This project provides an end-to-end solution for predicting customer churn in the telecommunications industry. By leveraging XGBoost and Streamlit, we've built a tool that identifies at-risk customers with high sensitivity, allowing for proactive retention strategies.
 
-This project aims to predict customer churn for a telecommunications company. By identifying customers likely to leave, the business can take proactive retention actions and improve customer loyalty.
+🚀 Key Features
+High Sensitivity Model: Optimized for 81% Recall to ensure that 4 out of 5 potential churners are identified.
 
-Roles
+Interactive Streamlit UI: A user-friendly interface for real-time churn risk assessment.
 
-Machine Learning Engineer: Built predictive models using XGBoost, handled imbalanced data, feature engineering, and threshold tuning.
+Integrated BI Dashboard: A built-in Power BI tab for deep-diving into historical trends and churn drivers.
 
-Data Analyst: Created a dynamic Power BI dashboard to visualize insights, track trends, and support data-driven decision-making.
+Feature Importance Insights: Transparent decision-making by highlighting the primary factors driving churn.
 
-Dataset
+🛠️ Technical Stack
+Language: Python
 
-The dataset includes customer demographics, account information, and service details. A sample file used in this project:
+Machine Learning: XGBoost Classifier
 
-WA_Fn-UseC_-Telco-Customer-Churn.csv
+Data Manipulation: Pandas, NumPy
 
-Key Steps
+Web Framework: Streamlit
 
-Data Preprocessing
+Business Intelligence: Power BI (Embedded)
 
-Handling missing values
+Model Management: Joblib / JSON serialization
 
-Encoding categorical variables
+📊 Business Insights
+Our analysis revealed that the top drivers for customer churn are:
 
-Scaling numerical features
+Contract Type: Month-to-month contracts are the highest risk factor.
 
-Exploratory Data Analysis (EDA)
+Internet Service: Fiber Optic users show a higher tendency to leave compared to DSL users.
 
-Understanding feature distributions
+Payment Method: Electronic check users are more likely to churn than those on automated payment plans.
 
-Identifying churn drivers
-
-Model Development
-
-XGBoost classifier
-
-Handling class imbalance using scale_pos_weight
-
-Threshold tuning for high recall
-
-Dashboard Visualization
-
-Interactive Power BI dashboard for insights and trend tracking
-
-Results
-
-Recall: 85%
-
-Top churn drivers: Month-to-month contracts, Fiber Optic service
-
-Enables identification of 4 out of 5 potential churners for targeted retention campaigns
-
-Files Included
-
-app.py – Main Python application (if applicable)
-
-modeling.ipynb, preprocessing.ipynb, understanding.ipynb – Jupyter notebooks for EDA and model building
-
-telco_churn_model.json – Saved ML model
-
-telco-churn.pbix – Power BI dashboard file
-
-DataModel, DiagramLayout, Metadata, Report – Power BI project folders
-
-How to Run
-
+⚙️ How to Run
 Clone the repository:
 
-git clone https://github.com/AbdoAshraf-07/Churn_Analysis.git
 
-
-Install required Python packages:
+git clone https://github.com/YourUsername/Telco-Churn-Prediction.git
+Install dependencies:
 
 pip install -r requirements.txt
+Run the App:
 
+streamlit run app.py
+👥 Contributors
+Developed by:
 
-Run app.py or open the notebooks for analysis.
+Abdelrahman Farag Mohamed - Generative AI Specialist
 
-Open telco-churn.pbix in Power BI to explore the dashboard.
+Hanaa Alaa - Dara Analyst
 
-Tools & Technologies
-
-Python: Pandas, NumPy, XGBoost, scikit-learn
-
-Power BI: Interactive dashboards
-
-Jupyter Notebook: Data exploration and modeling
-
-License
-
-This project is for educational purpose
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
